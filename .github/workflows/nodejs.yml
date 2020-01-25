@@ -1,6 +1,11 @@
 name: CI Testing
 
-on: [push, pull_request]
+# on: [push, pull_request]
+
+on:
+  push:
+    branch:
+      - master
 
 jobs:
   build:
