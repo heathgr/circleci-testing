@@ -1,5 +1,5 @@
 describe('index', () => {
   it('Should run a test', () => {
-    expect(true).toEqual(true)
+    expect(false).toEqual(true)
   })
 })
